@@ -19,7 +19,6 @@ def format_response(weather):
 		final_str = 'There was a problem'
 
 	return final_str
-#C:\Users\Seleccion\PycharmProjects\WeatherApp\venv\Lib\site-packages
 
 def get_weather(city):
 	weather_key = 'a4aa5e3d83ffefaba8c00284de6ef7c3'
