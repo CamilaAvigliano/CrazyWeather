@@ -8,9 +8,6 @@ WIDTH = 600
 def test_function (entry):
     print("Esta es la entrada:", entry)
 
-# api.openweathermap.org/data/2.5/forecast?q={city name},{country code}
-#4683b880338aa0d5037fb2a48831eff7
-
 def format_response(weather):
 	try:
 		name = weather['name']
